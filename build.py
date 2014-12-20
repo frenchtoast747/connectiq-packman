@@ -5,7 +5,7 @@ import sys
 import argparse
 
 
-# path to the SDK director; *NOT* the bin directory
+# path to the SDK directory; *NOT* the bin directory
 CONNECT_IQ_SDK_DIR = r'C:\connectiq\connectiq-sdk-win-0.3.0'
 
 script_extension = ''
