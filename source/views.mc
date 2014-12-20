@@ -12,7 +12,7 @@ using Toybox.ActivityRecording as AR;
 // results are ever published, then it might not be fair.
 // then again, results could be published per level of difficulty
 // easy, medium, hard, expert...
-var STD_DEV_MULTIPLIER = -10;
+var STD_DEV_MULTIPLIER = 0.5;
 // if a player allows a ghost to be close for 5 seconds
 // then they will lose a life after the 5 seconds.
 var MAX_GHOST_CLOSE_TICKS = 5;
