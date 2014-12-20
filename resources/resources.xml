@@ -1,0 +1,8 @@
+<resources>
+    <string id="AppNameString">Packman</string>
+    <bitmap id="LauncherIcon" filename="images/packman_icon.png" />
+    <bitmap id="packman_open" filename="images/packman_open.png" />
+    <bitmap id="packman_close" filename="images/packman_close.png" />
+    <bitmap id="ghost" filename="images/ghost.png" />
+    <bitmap id="heart" filename="images/heart.png" />
+</resources>

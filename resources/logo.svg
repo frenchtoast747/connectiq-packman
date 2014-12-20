@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\Packman\resources\images\logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="48.322591"
+     inkscape:cy="74.469295"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36218)">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3066"
+       width="399.86301"
+       height="400.2149"
+       x="0.20218088"
+       y="652.39099" />
+    <g
+       id="g3840"
+       transform="matrix(1.0549338,0,0,1.0549338,-69.802924,-45.338594)">
+      <path
+         inkscape:export-ydpi="89.699997"
+         inkscape:export-xdpi="89.699997"
+         inkscape:export-filename="C:\Users\Aaron\Dropbox\sideprojects\connectiq\Packman\resources\images\packman_open.png"
+         transform="matrix(0.39835704,0.16113551,-0.167033,0.38256787,916.47268,1098.1863)"
+         sodipodi:end="5.4872612"
+         sodipodi:start="0"
+         d="m -1377.1429,-10.49496 c 0,97.833296 -79.3096,177.14285 -177.1429,177.14285 -97.8333,0 -177.1428,-79.309554 -177.1428,-177.14285 0,-97.8333 79.3095,-177.14285 177.1428,-177.14285 46.3355,0 90.8264,18.15503 123.9336,50.57243 l -123.9336,126.57042 z"
+         sodipodi:ry="177.14285"
+         sodipodi:rx="177.14285"
+         sodipodi:cy="-10.49496"
+         sodipodi:cx="-1554.2858"
+         id="path3023"
+         style="fill:#ff5500;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="8.1041965"
+         inkscape:export-xdpi="8.1041965"
+         inkscape:export-filename="C:\Users\Aaron\Dropbox\sideprojects\connectiq\packman\resources\pacman.png"
+         transform="matrix(0.23523946,0.00125181,-9.2476082e-4,0.2260664,404.70023,843.36088)"
+         d="m -397.14285,-199.06639 c 0,20.51343 -16.62942,37.14286 -37.14286,37.14286 -20.51343,0 -37.14285,-16.62943 -37.14285,-37.14286 0,-20.51343 16.62942,-37.14286 37.14285,-37.14286 20.51344,0 37.14286,16.62943 37.14286,37.14286 z"
+         sodipodi:ry="37.142857"
+         sodipodi:rx="37.142857"
+         sodipodi:cy="-199.06639"
+         sodipodi:cx="-434.28571"
+         id="path3795"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#0000ff;fill-opacity:0;stroke:none"
+       id="path4374"
+       sodipodi:cx="165.15994"
+       sodipodi:cy="484.15137"
+       sodipodi:rx="457.09402"
+       sodipodi:ry="184.35284"
+       d="m 622.25397,484.15137 a 457.09402,184.35284 0 1 1 -914.18805,0 457.09402,184.35284 0 1 1 914.18805,0 z"
+       transform="translate(145.55434,-103.06329)" />
+    <g
+       transform="matrix(4.1457078,0,0,4.1457078,8.0037577,-3450.6769)"
+       id="layer1-8"
+       inkscape:label="Layer 1">
+      <g
+         transform="matrix(0.10404626,0,0,0.10015071,0.03216428,981.62829)"
+         id="g4400">
+        <g
+           id="g3053">
+          <path
+             sodipodi:end="3.1322689"
+             sodipodi:start="0"
+             transform="matrix(-0.99999479,-0.00275428,0.00322838,-0.85314226,342.86096,1017.9896)"
+             d="m 344.28571,587.7193 c 0,84.61791 -68.59637,153.21428 -153.21428,153.21428 -84.06057,0 -152.423875,-67.72885 -153.207623,-151.78577 L 191.07143,587.7193 z"
+             sodipodi:ry="153.21428"
+             sodipodi:rx="153.21428"
+             sodipodi:cy="587.7193"
+             sodipodi:cx="191.07143"
+             id="path4320"
+             style="fill:#00aaff;fill-opacity:1;stroke:none"
+             sodipodi:type="arc"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <rect
+             y="514.22736"
+             x="0.46174759"
+             height="127.36263"
+             width="306.38522"
+             id="rect4340"
+             style="fill:#00aaff;fill-opacity:1;stroke:none"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <path
+             sodipodi:nodetypes="cacscscc"
+             inkscape:connector-curvature="0"
+             id="path4342"
+             d="m 0.37880716,639.04605 c 0,0 16.08219784,66.13135 46.69781284,67.22104 32.739196,1.16528 56.84951,-68.08284 56.84951,-68.08284 0,0 22.43959,68.36492 54.81919,68.08286 31.53403,-0.27471 51.77365,-67.22106 51.77365,-67.22106 0,0 14.13046,64.42959 43.6523,65.49743 31.13304,1.12613 52.78883,-65.49743 52.78883,-65.49743 z"
+             style="fill:#00aaff;fill-opacity:1;stroke:none"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <path
+             transform="matrix(0.90196079,0,0,0.76950488,332.97401,246.43125)"
+             d="m -220.21327,329.09296 c 0,28.45248 -23.06529,51.51778 -51.51778,51.51778 -28.45248,0 -51.51778,-23.0653 -51.51778,-51.51778 0,-28.45249 23.0653,-51.51778 51.51778,-51.51778 28.45249,0 51.51778,23.06529 51.51778,51.51778 z"
+             sodipodi:ry="51.51778"
+             sodipodi:rx="51.51778"
+             sodipodi:cy="329.09296"
+             sodipodi:cx="-271.73105"
+             id="path4346"
+             style="fill:#ffffff;fill-opacity:1;stroke:none"
+             sodipodi:type="arc"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <path
+             transform="matrix(0.90196079,0,0,0.76950488,460.25324,247.29307)"
+             d="m -220.21327,329.09296 c 0,28.45248 -23.06529,51.51778 -51.51778,51.51778 -28.45248,0 -51.51778,-23.0653 -51.51778,-51.51778 0,-28.45249 23.0653,-51.51778 51.51778,-51.51778 28.45249,0 51.51778,23.06529 51.51778,51.51778 z"
+             sodipodi:ry="51.51778"
+             sodipodi:rx="51.51778"
+             sodipodi:cy="329.09296"
+             sodipodi:cx="-271.73105"
+             id="path4346-3"
+             style="fill:#ffffff;fill-opacity:1;stroke:none"
+             sodipodi:type="arc"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <path
+             transform="matrix(0.43902441,0,0,0.37455223,113.9994,404.0273)"
+             d="m 55.558392,255.35182 c 0,22.87357 -18.54269,41.41626 -41.416256,41.41626 -22.8735669,0 -41.416256,-18.54269 -41.416256,-41.41626 0,-22.87356 18.5426891,-41.41625 41.416256,-41.41625 22.873566,0 41.416256,18.54269 41.416256,41.41625 z"
+             sodipodi:ry="41.416256"
+             sodipodi:rx="41.416256"
+             sodipodi:cy="255.35182"
+             sodipodi:cx="14.142136"
+             id="path4380"
+             style="fill:#0000ff;fill-opacity:1;stroke:none"
+             sodipodi:type="arc"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <path
+             transform="matrix(0.43902441,0,0,0.37455223,245.31924,403.1655)"
+             d="m 55.558392,255.35182 c 0,22.87357 -18.54269,41.41626 -41.416256,41.41626 -22.8735669,0 -41.416256,-18.54269 -41.416256,-41.41626 0,-22.87356 18.5426891,-41.41625 41.416256,-41.41625 22.873566,0 41.416256,18.54269 41.416256,41.41625 z"
+             sodipodi:ry="41.416256"
+             sodipodi:rx="41.416256"
+             sodipodi:cy="255.35182"
+             sodipodi:cx="14.142136"
+             id="path4380-1"
+             style="fill:#0000ff;fill-opacity:1;stroke:none"
+             sodipodi:type="arc"
+             inkscape:export-filename="C:\Users\boman\Dropbox\sideprojects\connectiq\packman\resources\images\packman_closed.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+        </g>
+      </g>
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3064"
+       sodipodi:cx="-287.5"
+       sodipodi:cy="181.78572"
+       sodipodi:rx="48.214287"
+       sodipodi:ry="48.214287"
+       d="m -239.28571,181.78572 a 48.214287,48.214287 0 1 1 -96.42858,0 48.214287,48.214287 0 1 1 96.42858,0 z"
+       transform="matrix(0.46627019,0,0,0.46627019,480.84483,757.43507)" />
+  </g>
+</svg>

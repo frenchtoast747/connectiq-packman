@@ -1,0 +1,5 @@
+<menu id="GameMenu">
+    <menu-item id="save">Save and quit</menu-item>
+    <menu-item id="discard">Discard and quit</menu-item>
+    <menu-item id="cancel">Cancel</menu-item>
+</menu>
