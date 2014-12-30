@@ -42,3 +42,16 @@ This will build the binaries and place them in the `bin/` directory then
 push them to the simulator where you should see the main game screen.
 
 Run `build.py -h` for help and other available options.
+
+
+## Changelog
+
+* v0.2 - Tested on some hardware
+  * Add checks for the Attention tones and vibrations
+  * Hardware devices do not currently support ActivityRecording so
+    the session recording has been commented out.
+  * There is a bug with setting a variable to one of the Attention
+    tone enums, so the enums are used directly.
+
+* v0.1 - Initial Release
+  * Basic app setup. Simple game logic.
