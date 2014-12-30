@@ -2,6 +2,7 @@ using Toybox.System as Sys;
 
 
 var DEBUG = false;
+var HW_DEBUG = false;
 
 
 function debug(s){

@@ -2,15 +2,12 @@
     <iq:application entry="PackmanApp" id="5C2F4F2E0534478D9DC34AA31F5A170F" launcherIcon="LauncherIcon" name="AppNameString" type="watch-app">
 
         <iq:products>
-            <iq:product id="square_watch" partNumber="006-07782-73"/>
             <iq:product id="vivoactive" partNumber="006-B1907-00"/>
             <iq:product id="fr920xt" partNumber="006-B1765-00"/>
         </iq:products>
 
         <iq:permissions>
-            <iq:uses-permission id="ActivityRecording"/>
             <iq:uses-permission id="Positioning"/>
-            <iq:uses-permission id="Timer"/>
         </iq:permissions>
 
         <iq:languages>

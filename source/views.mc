@@ -4,7 +4,7 @@ using Toybox.Timer as Timer;
 using Toybox.Attention as Attention;
 using Toybox.Position as Position;
 using Toybox.Math as Math;
-using Toybox.ActivityRecording as AR;
+// using Toybox.ActivityRecording as AR;
 
 
 // a magic number to determine the amount of cushion
@@ -12,7 +12,7 @@ using Toybox.ActivityRecording as AR;
 // results are ever published, then it might not be fair.
 // then again, results could be published per level of difficulty
 // easy, medium, hard, expert...
-var STD_DEV_MULTIPLIER = 0.5;
+var STD_DEV_MULTIPLIER = 0.1;
 // if a player allows a ghost to be close for 5 seconds
 // then they will lose a life after the 5 seconds.
 var MAX_GHOST_CLOSE_TICKS = 5;
@@ -36,9 +36,9 @@ var LOSE_A_LIFE_VIBRATE = [VIBPROF_10ms, VIBPROF_10ms, VIBPROF_10ms];
 var GAME_OVER_VIBRATE = [VIBPROF_500ms];
 
 // create tone aliases that make sense in the terms of this app
-var GHOST_CATCHUP_TONE = Attention.TONE_DISTANCE_ALERT;
-var GAME_OVER_TONE = Attention.TONE_FAILURE;
-var LOSE_A_LIFE_TONE = Attention.TONE_INTERVAL_ALERT;
+// var GHOST_CATCHUP_TONE = Attention.TONE_DISTANCE_ALERT;
+// var GAME_OVER_TONE = Attention.TONE_FAILURE;
+// var LOSE_A_LIFE_TONE = Attention.TONE_INTERVAL_ALERT;
 
 // globals that store information about the current device
 var device_width = 0;
@@ -82,7 +82,7 @@ function drawPackman(dc){
 
 class GameView extends Ui.View {
     // ActivityRecording session from createSession()
-    var session;
+    // var session;
     // a Timer.Timer() used to update game information
     var game_timer;
     
@@ -148,10 +148,10 @@ class GameView extends Ui.View {
         debug("Creating game timer");
         game_timer = new Timer.Timer();
         
-        debug("Creating activity session");
-        session = AR.createSession({
-            :name => "Packman Game"
-        });
+        // debug("Creating activity session");
+        // session = AR.createSession({
+            // :name => "Packman Game"
+        // });
     }
     
     function new_game(){
@@ -177,7 +177,7 @@ class GameView extends Ui.View {
         // fire the main game loop every second
         game_timer.start(method(:tick), 1000, true);
         // start recording the activity
-        session.start();
+        // session.start();
         // call tick() so that the initial setup is ready to be drawn for
         // the following update request
         tick();
@@ -215,21 +215,21 @@ class GameView extends Ui.View {
     function save_session(){
         // a method to allow saving from the delegates.
         // saves the FIT file.
-        debug("Saving session.");
-        if(session.isRecording()){
-            session.stop();
-        }
-        session.save();
+        // debug("Saving session.");
+        // if(session.isRecording()){
+            // session.stop();
+        // }
+        // session.save();
     }
     
     function discard_session(){
         // a method to allow discarding from the delegates.
         // discards the FIT file.
-        debug("Discarding session.");
-        if(session.isRecording()){
-            session.stop();
-        }
-        session.discard();
+        // debug("Discarding session.");
+        // if(session.isRecording()){
+            // session.stop();
+        // }
+        // session.discard();
     }
     
     function position_callback(position){
@@ -246,7 +246,7 @@ class GameView extends Ui.View {
             // stop both the game timer and the FIT recording
             // session.
             game_timer.stop();
-            session.stop();
+            // session.stop();
             // disable the position callback (this is just resource saving)
             Position.enableLocationEvents(Position.LOCATION_DISABLE, null);
             // this is used in the onUpdate() function
@@ -345,8 +345,12 @@ class GameView extends Ui.View {
             // This prevents from a warning occurring every tick
             // for MAX_GHOST_CLOSE_TICKS
             debug("WATCH OUT!!! THE GHOST IS GOING TO GET YOU!!!");
-            Attention.playTone(GHOST_CATCHUP_TONE);
-            Attention.vibrate(GHOST_CATCHUP_VIBRATE);
+            if(Attention has :playTone){
+                Attention.playTone(Attention.TONE_DISTANCE_ALERT);
+            }
+            if(Attention has :vibrate){
+                Attention.vibrate(GHOST_CATCHUP_VIBRATE);
+            }
         }
         is_ghost_close = true;
         is_ghost_close_count += 1;
@@ -361,7 +365,7 @@ class GameView extends Ui.View {
         // called when the game is over or when the menu is displayed
         Position.enableLocationEvents(Position.LOCATION_DISABLE, null);
         game_timer.stop();
-        session.stop();
+        // session.stop();
         // make sure to draw anything new
         Ui.requestUpdate();
     }
@@ -378,8 +382,12 @@ class GameView extends Ui.View {
         // packman's mouth is left open
         packman_mouth_open = true;
         // play the bummer sound and vibrate
-        Attention.playTone(GAME_OVER_TONE);
-        Attention.vibrate(GAME_OVER_VIBRATE);
+        if(Attention has :playTone){
+            Attention.playTone(Attention.TONE_DISTANCE_ALERT);
+        }
+        if(Attention has :vibrate){
+            Attention.vibrate(GAME_OVER_VIBRATE);
+        }
         // clean up and draw
         shutdown();
     }
@@ -393,8 +401,12 @@ class GameView extends Ui.View {
             game_over();
         }
         else{
-            Attention.playTone(LOSE_A_LIFE_TONE);
-            Attention.vibrate(LOSE_A_LIFE_VIBRATE);
+            if(Attention has :playTone){
+                Attention.playTone(Attention.TONE_DISTANCE_ALERT);
+            }
+            if(Attention has :vibrate){
+                Attention.vibrate(LOSE_A_LIFE_VIBRATE);
+            }
             debug("Ouch! He got you. You have " + lives + " live(s) left.");
         }
     }
@@ -472,6 +484,10 @@ class GameView extends Ui.View {
         // if the ghost is in catchup mode, draw it
         if(is_ghost_close){
             drawGhost(dc);
+        }
+        if(HW_DEBUG){
+            dc.drawText(10, device_height - 10, Gfx.FONT_MEDIUM,
+                        current_speed + "m/s", Gfx.TEXT_JUSTIFY_LEFT);
         }
     }
 }
